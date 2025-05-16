@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #5993ff 0%, #98e0ff);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.coming-soon {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 3rem 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.coming-soon h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    color: #2d3a4a;
+    letter-spacing: 2px;
+}
+
+.coming-soon p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #3c80ff;
+}
