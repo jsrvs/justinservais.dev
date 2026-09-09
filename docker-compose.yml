@@ -1,0 +1,14 @@
+services:
+  web:
+    build: ./web
+    ports:
+      - "80:80"
+    environment:
+      SITE_ADDRESS: ":80"
+    depends_on:
+      - api
+
+  api:
+    build: ./backend
+    expose:
+      - "8080"

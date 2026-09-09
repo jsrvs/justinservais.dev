@@ -1,0 +1,17 @@
+# Node / Angular
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+
+# .NET
+bin/
+obj/
+*.user
+
+# Local environment
+.env
+
+# OS
+Thumbs.db
+.DS_Store
